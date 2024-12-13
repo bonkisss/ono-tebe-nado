@@ -3,8 +3,8 @@
   grid-template-columns: 1fr 1fr 0.92fr;
   gap: 10px;
   white-space: nowrap;
-  margin-top: 94px;
-  margin-bottom: 99px;
+  margin-top: 93px;
+  margin-bottom: 100px;
 }
 
 .header__menu {
@@ -20,7 +20,7 @@
 
 .header__links-list {
   display: flex;
-  gap: 33px;
+  gap: 32px;
   list-style: circle outside;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .header__logo {
-  width: 135px;
+  width: 136px;
   height: 100px;
 }
 
@@ -43,6 +43,7 @@
   line-height: 135%;
   font-style: normal;
   text-underline-position: under;
+  margin-top: 3px;
 }
 
 .cover {
@@ -52,8 +53,8 @@
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  gap: 105px;
-  padding: 165px 20px 50px 50px;
+  gap: 103px;
+  padding: 166px 20px 50px 50px;
 }
 
 .overlay {
@@ -204,7 +205,7 @@
   display: grid;
   grid-template-columns: 383px auto;
   justify-items: center;
-  column-gap: 2px;
+  column-gap: 0.5px;
 }
 
 .about__logo {
@@ -215,12 +216,12 @@
   height: 240px;
   border-radius: 50%;
   background-color: black;
-  margin-top: 8px;
+  margin-top: 9px;
 }
 
 .about__logo-image {
   width: 148px;
-  height: 114px;
+  height: 118px;
 }
 
 .about__title {
@@ -238,22 +239,14 @@
   gap: 25px;
   font-size: 20px;
   font-style: normal;
-  line-height: normal;
-  margin-right: 50px;
+  line-height: 1.2;
+  margin-right: 29px;
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  padding: 186px 50px 70px 50px;
-}
-
-.address {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 135%;
-  font-style: normal;
-  text-underline-position: under;
+  padding: 177px 50px 70px 50px;
 }
 
 .footer__menu-list {
@@ -262,6 +255,7 @@
   flex-direction: column;
   align-items: center;
   list-style: none;
+  margin-top: 3px;
 }
 
 .footer__menu-link {
@@ -274,6 +268,7 @@
 
 .footer__social-nav {
   justify-self: end;
+  margin-top: 3px;
 }
 
 .footer__social-list {
